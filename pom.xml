@@ -19,6 +19,15 @@
             <url>https://jitpack.io</url>
         </repository>
     </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.1</version> <!-- Phiên bản mới nhất tính đến tháng 4/2025 -->
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
 
 
 </project>
