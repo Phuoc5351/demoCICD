@@ -1,6 +1,6 @@
 package org.example;
 
-public class Caculator implements Icalculator {
+public class Calculator implements Icalculator {
 
     public Integer sum(Integer a, Integer b){
         return 0;
