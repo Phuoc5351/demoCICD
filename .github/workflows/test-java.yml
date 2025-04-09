@@ -1,10 +1,11 @@
-name: Java Test
+name: CI
 
 on:
-  pull-request:
+  pull_request:
     branches:
       - main
-    push:
+  push:
+    branches:
       - main
 
 jobs:
@@ -15,10 +16,12 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
+
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: '21'
+
       - name: Build and test on windows
-        run: nvm clean verify
+        run: mvn clean verify
