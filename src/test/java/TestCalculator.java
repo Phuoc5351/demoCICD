@@ -7,7 +7,7 @@ public class TestCalculator {
     @Test
     public void testSum() {
         Calculator calculator = new Calculator();
-        int result = calculator.sum(2, 6);
+        int result = calculator.sum(2, 3);
         Assert.assertEquals(result, 5, "Sum is correct");
     }
 
