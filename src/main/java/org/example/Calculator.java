@@ -7,6 +7,6 @@ public class Calculator implements Icalculator {
     }
 
     public Integer sub(Integer a, Integer b){
-        return a-b;
+        return a/b;
     }
 }
